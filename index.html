@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
+  <!-- 글꼴을 가져옴. 처음 두 rel이 브라우저에 글꼴이 필요하다는 걸 알림  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="calculator">
+    <!-- <div class="calculator_display"><div id="total">0</div> -->
+    <div class="calculator_display">0</div>
+   
+
+    <div class="calculator_body">
+      <div class="calculator_keyPad_layout">
+        <button class="clear modifier">AC</button>
+        <button class="calculate modifier">Enter</button>
+      </div>
+
+      <div class="calculator_keyPad_layout">
+        <button class="digits">7</button>
+        <button class="digits">8</button>
+        <button class="digits">9</button>
+        <button class="operator">+</button>
+      </div>
+
+      <div class="calculator_keyPad_layout">
+        <button class="digits">4</button>
+        <button class="digits">5</button>
+        <button class="digits">6</button>
+        <button class="operator">-</button>
+      </div>
+
+      <div class="calculator_keyPad_layout">
+        <button class="digits">1</button>
+        <button class="digits">2</button>
+        <button class="digits">3</button>
+        <button class="operator">*</button>
+      </div>
+
+      <div class="calculator_keyPad_layout">
+        <button id="digits digit_zero" class="digits">0</button>
+        <button id="comma" class = "comma">.</button>
+        <button class="operator">/</button>
+      </div>
+    </div>
+  </div>
+  <script src='./script.js'></script>
+</body>
+
+</html>
